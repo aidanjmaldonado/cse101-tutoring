@@ -41,7 +41,7 @@ You will need two files to build your Docker Environment.
    
 #### devcontainer.json
 This file holds the container's configuration settings, such as which ```Dockerfile``` (see below) to use, settings, extensions, and post-creation commands.
-```devcontainer.json```: This file should be placed inside a folder called ```.devcontainer``` in the root directory of your repository (```cse101-tutoring``` in this case, so it should appear as cse101-tutoring/.devcontainer). You can create the ```.devcontainer``` folder like this:
+```devcontainer.json```: This file should be placed inside a folder called ```.devcontainer``` in the root directory of your repository (This would be```cse101-tutoring``` in the case of this repository, so it should appear as cse101-tutoring/.devcontainer). You can create the ```.devcontainer``` folder with the following commands:
 ```
 mkdir .devcontainer
 ```
