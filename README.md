@@ -1,7 +1,19 @@
 # Hello!
 
-I'm Aidan Maldonado, I'm a third year computer science major, and I'm excited to be your tutor for Cse 101 Introduction to Data Structures and Algorithms.
+I'm Aidan Maldonado, a third year computer science major, and I'm excited to be your tutor for Cse 101 Introduction to Data Structures and Algorithms.
 My goal with this repository is to provide you all with resources to help apply the concepts we go over in sections and serve as a technical referrence.
+
+**Index** 
+
+* [Clone Repository](#clone-repository)
+* [Docker Setup](#docker-setup)
+    * [Downloading Dependences](#downloading-dependencies)
+        * [Software](#software)
+        * [Extensions](#extensions)
+        * [Docker Packages](#docker-packages)
+            * [.devcontainer/](.devcontainer/)
+            * [devcontainer.json](#devcontainerjson)
+            * [Dockerfile](#dockerfile)
 
 ---
 # Clone repository
@@ -20,16 +32,15 @@ From here, change directory to work inside the space:
 cd cse101-tutoring
 ```
 
-# Setup
-## 1. Docker Environment
+# Docker Setup
 While you may be using a different environment to code during your classes such as WSL, VM, Ubuntu, or others, I will provide a brief kickstart guide to establishing a docker environment, which will allow you to write/run C/C++ code, specifically with Visual Studio Code.
 
-### Downloading Dependencies
-#### Software
+## Downloading Dependencies
+### Software
 1. If you do not have **Visual Studio Code** installed, you may download it from [here](https://code.visualstudio.com/download).
 2. If you do not have **Docker Desktop installed**, you may download it from [here](https://www.docker.com/products/docker-desktop/).
 
-#### Extensions
+### Extensions
 1. Upon opening Visual Studio Code, look for the **Extensions** tab in the left column (or press ```CMD+Shift+X``` on Mac/```CTRL+Shift+X``` on Windows).
 2. Search for the extension "Dev Containers" by Microsoft (refer [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) to make sure you're downloading the right one).
 3. Click "Install"
