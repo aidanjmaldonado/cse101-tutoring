@@ -7,10 +7,10 @@ My goal with this repository is to provide you all with resources to help apply 
 
 * [Clone Repository](#clone-repository)
 * [Docker Setup](#docker-setup)
-    * [Downloading Dependences](#downloading-dependencies)
+    * [Dependences](#downloading-dependencies)
         * [Software](#software)
         * [Extensions](#extensions)
-        * [Docker Packages](#docker-packages)
+        * [Docker Files](#docker-files)
             * [.devcontainer/](#devcontainer)
             * [devcontainer.json](#devcontainerjson)
             * [Dockerfile](#dockerfile)
@@ -35,7 +35,7 @@ cd cse101-tutoring
 # Docker Setup
 While you may be using a different environment to code during your classes such as WSL, VM, Ubuntu, or others, I will provide a brief kickstart guide to establishing a docker environment, which will allow you to write/run C/C++ code, specifically with Visual Studio Code.
 
-## Downloading Dependencies
+## Dependencies
 ### Software
 1. If you do not have **Visual Studio Code** installed, you may download it from [here](https://code.visualstudio.com/download).
 2. If you do not have **Docker Desktop installed**, you may download it from [here](https://www.docker.com/products/docker-desktop/).
@@ -45,7 +45,7 @@ While you may be using a different environment to code during your classes such 
 2. Search for the extension "Dev Containers" by Microsoft (refer [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) to make sure you're downloading the right one).
 3. Click "Install"
 
-### Docker Packages
+### Docker Files
 You will need two files to build your Docker Environment.
 1. devcontainer.json
 2. Dockerfile
