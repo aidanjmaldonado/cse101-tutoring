@@ -11,7 +11,7 @@ My goal with this repository is to provide you all with resources to help apply 
         * [Software](#software)
         * [Extensions](#extensions)
         * [Docker Packages](#docker-packages)
-            * [.devcontainer/](#.devcontainer)
+            * [.devcontainer/](#devcontainer)
             * [devcontainer.json](#devcontainerjson)
             * [Dockerfile](#dockerfile)
 
