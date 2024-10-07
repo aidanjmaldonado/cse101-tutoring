@@ -38,16 +38,17 @@ While you may be using a different environment to code during your classes such 
 You will need two files to build your Docker Environment.
 1. devcontainer.json
 2. Dockerfile
-   
-#### devcontainer.json
-This file holds the container's configuration settings, such as which ```Dockerfile``` (see below) to use, settings, extensions, and post-creation commands.
-```devcontainer.json```: This file should be placed inside a folder called ```.devcontainer``` in the root directory of your repository (This would be```cse101-tutoring``` in the case of this repository, so it should appear as cse101-tutoring/.devcontainer). You can create the ```.devcontainer``` folder with the following commands:
+
+#### .devcontainer/
+Both ```devcontainer.json``` and ```Dockerfile``` should be placed inside a folder called ```.devcontainer``` in the root directory of your repository (This would be```cse101-tutoring``` in the case of this repository, so it should appear as cse101-tutoring/.devcontainer). You can create and step into the ```.devcontainer``` folder with the following commands:
 ```
 mkdir .devcontainer
 ```
 ```
 cd .devcontainer
 ```
+#### devcontainer.json
+This file holds the container's configuration settings, such as which ```Dockerfile``` (see below) to use, settings, extensions, and post-creation commands.
 ```
 code devcontainer.json
 ```
@@ -82,11 +83,11 @@ Here is an example of what will go inside your ```devcontainer.json```, though y
 
 
 #### Dockerfile
-This file will tell your Docker environment which packeges to install upon being built, such as git, vim, valgrind, clang, lldb, etc, and should also go inside the ```.devcontainer folder```. So after creating the ```devcontainer.json```, you can create the ```Dockerfile```:
+This file will tell your Docker environment which packeges to install upon being built, such as git, vim, valgrind, clang, lldb, etc, and should also go inside the ```.devcontainer/``` directory. So, after creating the ```devcontainer.json```, you can create the ```Dockerfile``` with:
 ```
 code Dockerfile
 ```
-Here is an example of what will go inside your ```Dockerfile```, though you ma ycustomize this to suit your needs:
+Here is an example of what will go inside your ```Dockerfile```, though you may also customize this to suit your needs:
 ```
 # Use the official Ubuntu image as a base
 FROM ubuntu:20.04
@@ -126,7 +127,8 @@ WORKDIR /workspaces
 
 ### Reopen in Docker
 Now that all the files are set up, the last thing to do is build the environment. 
-First, step out of the .devcontainers folder with
+
+First, step out of the ```cse101-tutoring/.devcontainers``` directory and back into ```cse101-tutoring/``` with
 ```
 cd..
 ```
