@@ -1,0 +1,23 @@
+{
+    "name": "CSE 101 Tutoring",      // To help denote which container you're using, change to match your use case
+    "dockerFile": "Dockerfile",      // Points to the Dockerfile in the same folder
+    "context": "..",                 // Set this to the directory that contains the `.devcontainer` folder
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.defaultFormatter": "ms-vscode.cpptools"
+            },
+            "extensions": [
+                "ms-vscode.cpptools",                   // C++ tools and Intellisense (Comment out/delete if not desired)
+                "ms-vscode.cmake-tools",                // CMake support (Comment out/delete if not desired)
+                "ms-vscode-remote.remote-containers"    // Dev Containers support (Comment out/delete if not desired)
+            ]
+        }
+    },
+    //Comment out/delete the following line to not execute the command after container is build
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y cmake",
+
+    // Uncomment below to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
+    "remoteUser": "vscode", // Change "vscode" to "root" if you want to specify root
+    "forwardPorts": []  // Optional list of ports 
+}
