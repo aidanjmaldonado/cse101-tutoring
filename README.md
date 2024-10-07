@@ -1,11 +1,11 @@
 # Hello!
 
 I'm Aidan Maldonado, I'm a third year computer science major, and I'm excited to be your tutor for Cse 101 Introduction to Data Structures and Algorithms.
-My goal with this repository is to provide you all with resources to help apply the concepts we go over in sections and serve as a technical refernce.
+My goal with this repository is to provide you all with resources to help apply the concepts we go over in sections and serve as a technical referrence.
 
 ---
 # Clone repository
-Navigate to a folder within your computer where you'd like to clone this repository. In your terminal, run **one** of these two commands:
+Navigate to a folder within your computer where you'd like to clone this repository. Once you find a spot, in your terminal, run **one** of these two commands:
 
 1. Run this command if you'd like to clone the repository **with** my [Docker files](#docker-packages) pre-installed
 ```
@@ -83,7 +83,7 @@ Here is an example of what will go inside your ```devcontainer.json```, though y
 
 
 #### Dockerfile
-This file will tell your Docker environment which packeges to install upon being built, such as git, vim, valgrind, clang, lldb, etc, and should also go inside the ```.devcontainer/``` directory. So, after creating the ```devcontainer.json```, you can create the ```Dockerfile``` with:
+This file will tell your Docker environment which packages to install upon being built, such as git, vim, valgrind, clang, lldb, etc, and should also go inside the ```.devcontainer/``` directory. So, after creating the ```devcontainer.json```, you can create the ```Dockerfile``` with:
 ```
 code Dockerfile
 ```
