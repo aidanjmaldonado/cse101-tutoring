@@ -163,3 +163,4 @@ To shut down the Docker, in the app look for ```Quick Docker Desktop``` in the a
 
 # Week 2
 ## Introduction to Abstract Data Types
+[Lists, Stacks, General ADTs](https://github.com/aidanjmaldonado/cse101-tutoring/tree/main/week-2)
